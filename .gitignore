@@ -29,6 +29,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -37,6 +38,9 @@ bld/
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
+
+# Rider configuration file
+.idea/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -125,9 +129,6 @@ $tf/
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
-
-# JustCode is a .NET coding add-in
-.JustCode
 
 # TeamCity is a build add-in
 _TeamCity*
@@ -228,7 +229,8 @@ ClientBin/
 *.dbmdl
 *.dbproj.schemaview
 *.jfm
-*.pfx
+#*.pfx
+## *.pfx
 *.publishsettings
 orleans.codegen.cs
 
@@ -347,3 +349,10 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+# ServiceDependencies
+**/Properties/ServiceDependencies*
+**/.DS_Store
